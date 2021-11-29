@@ -1,0 +1,15 @@
+#include <iostream>
+using namespace std;
+int main() 
+{
+  int a;
+  cin >>a;
+  cout <<"還差:" <<(185-a)<< "公分"<<endl; 
+  if (a < 185 ){
+    cout <<"你好矮!!!";
+  }
+  else if (a >= 185){
+    cout << "你夠高了!!!";
+  }
+  return 0;
+}
